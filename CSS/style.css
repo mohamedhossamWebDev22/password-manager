@@ -37,9 +37,26 @@ body {
 .website .passwords {
   background: rgb(202, 202, 202);
   margin-top: 2%;
+  padding: 20px;
 }
 .website .passwords .card {
   background: white;
   border-radius: 10px;
-  padding: 4px 8px;
+  padding: 2%;
+}
+.website .passwords .card .title {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+.website .passwords .card button {
+  width: 100%;
+  background: crimson;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid crimson;
+  padding: 5px 8px;
+}
+.website .passwords .card button:hover {
+  box-shadow: 0px 4px 8px #777;
 }/*# sourceMappingURL=style.css.map */
